@@ -1,0 +1,88 @@
+.owl-section, .owl-main {
+  position: relative;
+  .owl-dots {
+    .owl-dot {
+      span {
+        width: 34px;
+        height: 34px;
+        border: 4px solid white;
+        background: white;
+      }
+      &:hover {
+        span {
+          background: none;
+        }
+      }
+    }
+    .owl-dot.active {
+      span {
+        background: none;
+      }
+    }
+  }
+  .owl-nav {
+    .owl-next {
+      span {
+        position: absolute;
+        content: url("../../assets/img/arr_right.svg");
+        top: 43%;
+        bottom: 0;
+        right: -10%;
+      }
+    }
+    .owl-prev {
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+.owl-section{
+  .owl-stage-outer{
+    overflow-y: visible;
+    overflow-x: clip;
+  }
+  .item-8 {
+    position: absolute;
+    width: 150%;
+    bottom: -50%;
+    img {
+      position: relative;
+      left: -37%;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .owl-section, .owl-main {
+    .owl-dots {
+      position: relative;
+      top: -30px;
+      .owl-dot {
+        width: 17px;
+        span {
+          width: 10px;
+          height: 10px;
+          border: 1px solid white;
+        }
+      }
+      .owl-dot.active {
+        span {
+          background: none;
+        }
+      }
+    }
+    .owl-nav {
+      margin: 0;
+      .owl-next {
+        span {
+          top: 38%;
+          bottom: 0;
+          right: -17%;
+          width: 30px;
+        }
+      }
+    }
+  }
+}

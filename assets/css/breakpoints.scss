@@ -1,0 +1,654 @@
+@import "variables";
+
+@media (min-width: 319.98px) and (max-width: 374.98px) {
+  .top-section {
+    .t-head {
+      .t-head-right {
+        span {
+          top: 140px;
+          right: -7%;
+        }
+      }
+    }
+  }
+  .mid-b {
+    .m-a-img {
+      &::after {
+        min-height: 160px;
+      }
+      span {
+        font-size: 12px;
+        right: -2%;
+      }
+    }
+  }
+  .mid-c {
+    .mid-c-carousel {
+      &::after {
+        min-height: 300px;
+      }
+      .mid-span-part {
+        .mid-span {
+          font-size: 12px;
+        }
+      }
+    }
+    &::after {
+      min-height: 367px;
+    }
+  }
+  .mid-d {
+    &::before {
+      width: 100%;
+      top: -12%;
+      min-height: 543px;
+    }
+    .span-mobile {
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      margin: 0;
+      left: 52%;
+      top: 17%;
+    }
+  }
+  .mid-e {
+    .mid-e-img {
+      span {
+        font-size: 12px;
+        top: -55px;
+      }
+    }
+  }
+}
+@media (min-width: 375px) and (max-width: 413.98px) {
+  .top-section {
+    .t-head {
+      .t-head-right {
+        span {
+          top: 90px;
+          right: -10%;
+        }
+      }
+    }
+  }
+  .mid-b {
+    .m-a-img {
+      &::after {
+        min-height: 186px;
+      }
+      span {
+        font-size: 14px;
+        right: 0
+      }
+    }
+  }
+  .mid-c {
+    .mid-c-carousel {
+      &::after {
+        min-height: 340px;
+      }
+      .mid-span-part {
+        .mid-span {
+          font-size: 15px;
+        }
+      }
+    }
+    &::after {
+      min-height: 430px;
+    }
+  }
+  .mid-d {
+    &::before {
+      width: 100%;
+      top: -12%;
+      background-size: cover;
+      min-height: 700px;
+    }
+    .span-mobile {
+      color: white;
+      font-size: 14px;
+      position: absolute;
+      margin: 0;
+      left: 52%;
+      top: 14%;
+    }
+  }
+  .mid-e {
+    .mid-e-img {
+      span {
+        font-size: 14px;
+        top: -65px;
+      }
+    }
+  }
+}
+@media (min-width: 414px) and (max-width: 576px) {
+  .top-section {
+    .t-head {
+      .t-head-right {
+        span {
+          top: 70px;
+          right: -11%;
+        }
+      }
+    }
+  }
+  .mid-b {
+    .m-a-img {
+      &::after {
+        min-height: 207px;
+      }
+      span {
+        font-size: 16px;
+        right: 0
+      }
+    }
+  }
+  .mid-c {
+    .mid-c-carousel {
+      &::after {
+        min-height: 340px;
+      }
+      .mid-span-part {
+        .mid-span {
+          font-size: 16px;
+        }
+      }
+    }
+    &::after {
+      min-height: 473px;
+    }
+  }
+  .mid-d {
+    &::before {
+      width: 100%;
+      top: -12%;
+      background-size: cover;
+      min-height: 700px;
+    }
+    .span-mobile {
+      color: white;
+      font-size: 14px;
+      position: absolute;
+      margin: 0;
+      left: 52%;
+      top: 14%;
+    }
+  }
+  .mid-e {
+    .mid-e-img {
+      span {
+        font-size: 16px;
+        top: -75px;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  .top-section {
+    background-image: url("../../assets/img/top_backimg_m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 535px;
+    padding-bottom: 50px;
+    &::before {
+      position: absolute;
+      content: '';
+      background-image: url("../../assets/img/top_v1_m.svg");
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+      top: -12%;
+    } &::after {
+      position: absolute;
+      content: '';
+      background: url("../../assets/img/top_v2_m.svg") no-repeat bottom;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+    background-size: contain;
+    }
+
+    .navbar-background {
+      position: absolute;
+      width: 100%;
+      padding: 0;
+      .navbar-top {
+        padding: 2px 0;
+        .navbar-logo {
+          img {
+            width: 80%;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .top-head-title {
+      .top-head-in {
+        padding-top: 9rem;
+        padding-left: 10px;
+      }
+      h1 {
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
+      p {
+        line-height: 100%;
+        font-size: 11px;
+        font-weight: 100;
+      }
+    }
+    .t-head {
+      padding-top: 115px;
+      .t-head-left {
+        h1 {
+          font-size: 24px;
+          color: white;
+          line-height: 120%;
+          padding-top: 10px;
+        }
+        p {
+          line-height: 130%;
+          padding-top: 10px;
+          font-size: 12px;
+        }
+      }
+      .lb-side {
+        margin-top: 0;
+        .task-text {
+          font-family: $fontMid;
+          text-transform: uppercase;
+          font-size: 16px;
+        }
+        .item-head {
+          font-family: $fontMid1;
+          font-size: 12px;
+          margin-bottom: 5px;
+        }
+        .item-text {
+          font-size: 12px;
+          &:last-child {
+            padding-right:0;
+          }
+        }
+      }
+      .t-head-right {
+        position: relative;
+        span {
+          position: absolute;
+          z-index: 2;
+          max-height: 350px;
+          max-width: 146px;
+        }
+
+      }
+    }
+  }
+  .mid-a {
+    background-color: white;
+    bottom: 0;
+    .mid-main-h {
+      padding-bottom: 20px;
+      h2 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+        margin-bottom: 0;
+        line-height: 110%;
+      }
+      &::after {
+        width: 100%;
+        background-repeat: no-repeat;
+        min-height: 80px;
+        top: 3%;
+        left: 3%;
+      }
+    }
+  }
+  .mid-b {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      background-image: url("../../assets/img/top_v2_1_m.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      min-height: 80px;
+      top: -20px;
+    }
+  .m-a-img {
+
+    span {
+      top: 77%;
+    }
+    &::after {
+      background: url("../../assets/img/spot_1_m.svg") no-repeat;
+      width: 67%;
+      top: 66%;
+      right: -12px;
+      background-size: cover;
+    }
+  }
+  }
+  .mid-c {
+    margin-top: 70px;
+    &::before {
+      background: url("../../assets/img/spor_r_m.svg") right no-repeat;
+      background-size: contain;
+      width: 100%;
+      min-height: 200px;
+      top: -18%;
+    }
+    &::after {
+      background-size: cover;
+      width: 100%;
+      top: -5%;
+      left: -30%;
+    }
+    .mid-c-carousel {
+      position: relative;
+      &::after {
+        background: url("../../assets/img/carousel_spot_m.svg") no-repeat;
+        width: 110%;
+        top: 68%;
+        left: 15%;
+        right: 0;
+        background-size: cover;
+      }
+      .mid-span-part {
+        position: absolute;
+        left: 44%;
+        padding: 40%;
+        top: 83%;
+        .mid-span {
+          position: absolute;
+          top: 36%;
+          right: 0;
+          line-height: 130%;
+          left: 12%;
+        }
+      }
+    }
+  }
+  .mid-d {
+    margin-top: 11rem;
+    img {
+      width: 100%;
+    }
+    &::before {
+      background-image: url("../../assets/img/white_spot_m.svg");
+      background-repeat: no-repeat;
+    }
+    &::after {
+      background: url("../../assets/img/spot_2m.svg") right no-repeat;
+      width: 100%;
+      right: 0;
+      top: -4%;
+    }
+    .mob-1-part {
+      width: 90%;
+      img {
+        margin-top: 0;
+      }
+    }
+    .mob-2-part {
+      width: 90%;
+      img {
+        position: relative;
+        left: 15px;
+      }
+    }
+    .mid-d-s {
+      position: relative;
+      left: 26px;
+      span {
+        font-size: 11px;
+        top: 13%;
+        left: 35%;
+        padding: 0 9%;
+        line-height: 130%;
+      }
+    }
+  }
+  .mid-e {
+    margin-top: 20px;
+    &::after {
+      background: url("../../assets/img/laptop_spot_m.svg") no-repeat;
+      background-size: cover;
+      min-height: 421px;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+    .mid-e-img {
+      position: relative;
+      top: 55%;
+      &::after {
+        display: none;
+      }
+      &::before {
+        display: none;
+      }
+      img {
+        position: relative;
+        float: right;
+        right: -12px;
+      }
+      span {
+        left: 0;
+      }
+    }
+  }
+  .mid-f {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 12rem;
+    background: url('../../assets/img/font_spot_m.svg') no-repeat;
+    background-size: cover;
+    h3 {
+      font-size: 12px;
+    }
+    .mid-f-in {
+      margin-top: 30px;
+      .font-head {
+        font-size: 12px;
+      }
+      .fonts {
+        padding-top: 18px;
+        flex-direction: row;
+        .fonts-in {
+          img {
+            width: 100%;
+          }
+          p {
+            font-size: 12px;
+            padding-top: 5px;
+          }
+        }
+      }
+      .colors {
+        .img-color {
+          padding: 10px 0 45px 0;
+
+          img {
+            margin: 0;
+            width: 100%;
+          }
+        }
+        .font-head {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .mid-bottom-black {
+    padding-top: 40px;
+    .red-head {
+      h4 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 15.6px;
+      }
+    }
+    .mid-red {
+      position: inherit;
+      .red-table {
+        .red-table-head {
+          font-size: 16px;
+        }
+        .red-table-text {
+          font-size: 12px;
+          padding-bottom: 10px;
+        }
+        .red-table-head-2 {
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+      ul {
+        li {
+          font-size: 12px;
+        }
+      }
+    }
+    .oct-img {
+      top: 0;
+      width: 100%;
+      left: 0;
+      padding-top: 40px;
+      padding-bottom: 65px;
+    }
+  }
+  footer {
+    .menu-bottom {
+      .contact {
+        padding-top: 18px;
+        padding-right: 3px;
+        h5 {
+          font-size: 18px;
+          padding-bottom: 20px;
+          margin-bottom: 0;
+        }
+        form {
+          .form-group {
+            button {
+              padding: 10px;
+              line-height: 17px;
+              border-radius: 25px;
+            }
+          }
+        }
+        .footer-address {
+          padding-top: 34px;
+          text-align: center;
+          .brands-ul {
+            li+li {
+              padding-left: 25px;
+            }
+          }
+          .contact-info {
+            .place-address {
+              font-size: 14px;
+            }
+            li {
+              font-size: 14px;
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+          .brands-ul {
+            margin-bottom: 0;
+          }
+          .privacy-t {
+            font-size: 12px;
+            padding-top: 34px;
+            padding-bottom: 0;
+          }
+        }
+        .doll-sec {
+          padding-top: 45px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 576.02px) and (max-width: 1199.98px) {
+  .top-section {
+    .navbar-background {
+      position: absolute;
+      width: 100%;
+      padding: 0;
+    }
+    min-height: 440px;
+    .top-head-title {
+      h1 {
+        font-size: 38px;
+        letter-spacing: 1px;
+      }
+      p {
+        line-height: 100%;
+        font-size: 13px;
+        font-weight: 100;
+      }
+      .top-head-in {
+        padding-top: 8rem;
+      }
+    }
+  }
+  .mid-section {
+    .flag-s {
+      .f-span {
+        right: -12px;
+        top: -11rem;
+        img {
+          max-width: 440px;
+        }
+      }
+    }
+    h2, h3 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .m-bottom {
+      padding-top: 0;
+    }
+    .m1-bottom {
+      padding-top: 20px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    zoom: .5;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    zoom: .55;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  html {
+    zoom: .65;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  html {
+    zoom: .7;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1919.98px) {
+  html {
+    zoom: .8;
+  }
+}
+

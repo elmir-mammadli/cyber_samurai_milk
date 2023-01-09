@@ -1,0 +1,39 @@
+@import "fonts";
+
+$fontNav: 'HeliosLightC', sans-serif;
+$fontMid: 'Druk Text Wide Cyr', sans-serif;
+$fontMid1: 'Druk Wide Cyr Medium', sans-serif;
+$body_background: #e3f2ff;
+$backColor1: #BB6BD9;
+$backColor2: #5B2CFC;
+$contact_btn: #DDFF0F;
+$contact_btn_hover: #B3CE0EFF;
+
+body {
+  background-color: $body_background;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $fontMid;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+}
+
+
+p {
+  font-family: $fontNav;
+  color: white;
+  font-size: 32px;
+  font-weight: 100;
+  position: relative;
+}
+
+ul {
+  color: white;
+  padding: 0;
+}
+
+span {
+  font-family: $fontNav;
+}
